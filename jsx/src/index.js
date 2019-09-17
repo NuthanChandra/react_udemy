@@ -2,13 +2,17 @@
 import React from 'react'; // AFter import is the variable, it can be anything. After from is the import file
 import ReactDOM from 'react-dom'
 
+function getTime()
+{
+    return new Date().toDateString()
+}
+
 // Create a React component
 const App = () => {
     return (
     <div>
-        <label className="label" htmlFor="name">Enter name:</label>
-        <input id="name" type="text" />
-        <button style={{ backgroundColor: 'blue', color: 'white' }}>Submit</button>
+        <div>Current Time</div>
+        <h3>{getTime()}</h3>
     </div>
     );
 }
