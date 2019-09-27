@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 
 function getTime()
 {
-    return new Date().toDateString()
+    return new Date().toTimeString()
 }
 
 // Create a React component
