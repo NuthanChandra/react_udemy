@@ -14,4 +14,4 @@ const ApprovalCard = (props) => {
     )
 };
 
-export default ApprovalCard
+export default ApprovalCard;

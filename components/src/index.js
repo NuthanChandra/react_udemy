@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import faker from 'faker';
 import CommentDetail from './CommentDetail';
 import ApprovalCard from './ApprovalCard';
+import Message from './Message';
 
 const App = () => {
     return (
@@ -33,6 +34,10 @@ const App = () => {
                     commentText="See you later, Alligator"
                 />
             </ApprovalCard>
+            <Message 
+                title="Attention"
+                content="We just updated our privacy policy here to better our customers."
+            />
         </div>
     );
 }
