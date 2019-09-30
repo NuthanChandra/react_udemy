@@ -1,44 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import faker from 'faker';
-import CommentDetail from './CommentDetail';
-import ApprovalCard from './ApprovalCard';
-import Message from './Message';
+import SegmentCard from './SegmentCard';
 
 const App = () => {
     return (
-        <div className="ui container comments">
-            <ApprovalCard>
-                <CommentDetail
-                author="Mark"
-                timeAgo="Today at 2 AM"
-                avatar={faker.image.avatar()} 
-                commentText="Hi" 
-                />
-            </ApprovalCard>
-
-            <ApprovalCard>
-                <CommentDetail
-                    author="Hercules"
-                    timeAgo="Today at 5 AM"
-                    avatar={faker.image.avatar()}
-                    commentText="Bye"
-                />
-            </ApprovalCard>
-            
-            <ApprovalCard>
-                <CommentDetail
-                    author="Venice"
-                    timeAgo="Today at 7 PM"
-                    avatar={faker.image.avatar()}
-                    commentText="See you later, Alligator"
-                />
-            </ApprovalCard>
-            <Message 
-                title="Attention"
-                content="We just updated our privacy policy here to better our customers."
-            />
+        <div className="ui container">
+            <SegmentCard>
+                <div className="ui icon header">
+                    <i className="pdf file outline icon"></i>
+                    No documents are listed for this customer.
+                </div>
+                <div className="ui primary button">Add Document</div>
+            </SegmentCard>
+            <SegmentCard>
+                <h4 className="ui header">For your information</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Expedita, minima laborum? Officiis voluptates molestias inventore similique architecto et? 
+                    Assumenda asperiores quas similique vero quia reprehenderit obcaecati quo iste fugit explicabo!
+                </p>
+            </SegmentCard>
         </div>
+        
     );
 }
 
