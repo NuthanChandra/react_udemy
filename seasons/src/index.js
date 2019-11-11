@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 class App extends React.Component {
     constructor(props){
         super(props);
-        // This is the only time we do direct assignment
+        // This is the only time we do direct assignment 
         this.state = {lat: null};
 
         navigator.geolocation.getCurrentPosition(
@@ -24,4 +24,3 @@ ReactDOM.render(
     document.querySelector('#root')
 );
 
- 

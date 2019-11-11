@@ -13,3 +13,8 @@ Diagram 7,9: Class components
 
 Diagram 10: Rules of State
 * setState is used instead of direct assignment
+
+What is State?
+* It is a JS object which contains data relevant to a component
+
+Diagram 11: Flow diagram of state
