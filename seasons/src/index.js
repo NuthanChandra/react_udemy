@@ -11,7 +11,7 @@ class App extends React.Component {
             (position) => console.log(position),
             (err) => console.log(err)
         );
-        return <div>Class based component</div>
+        return <div>Latitude: {this.state.lat}</div>
     }
 }
 
@@ -20,3 +20,4 @@ ReactDOM.render(
     document.querySelector('#root')
 );
 
+ 
