@@ -18,3 +18,5 @@ What is State?
 * It is a JS object which contains data relevant to a component
 
 Diagram 11: Flow diagram of state
+
+* setState is additive as seen in updating the errorMessage
