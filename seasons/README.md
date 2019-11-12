@@ -20,3 +20,5 @@ What is State?
 Diagram 11: Flow diagram of state
 
 * setState is additive as seen in updating the errorMessage
+
+Diagram 12: Different situations
