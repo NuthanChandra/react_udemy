@@ -30,3 +30,5 @@ Diagram 15: Purpose of using different Lifecycle methods
 * Best practice to do data loading is componentDidMount rather than constructor
 
 Diagram 14: Rarely used Lifecycle methods
+
+* this.state inside constructor can be refactored to only state outside the constructor. Try babeljs.io
