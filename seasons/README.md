@@ -22,3 +22,6 @@ Diagram 11: Flow diagram of state
 * setState is additive as seen in updating the errorMessage
 
 Diagram 12: Different situations
+
+Diagram 13: Component Lifecycle
+* Before componentDidUpdate, render method will be called. It's not shown in 13d.
