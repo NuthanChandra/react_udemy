@@ -25,3 +25,8 @@ Diagram 12: Different situations
 
 Diagram 13: Component Lifecycle
 * Before componentDidUpdate, render method will be called. It's not shown in 13d.
+
+Diagram 15: Purpose of using different Lifecycle methods
+* Best practice to do data loading is componentDidMount rather than constructor
+
+Diagram 14: Rarely used Lifecycle methods

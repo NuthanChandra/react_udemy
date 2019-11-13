@@ -6,18 +6,12 @@ class App extends React.Component {
         super(props);
         // This is the only time we do direct assignment 
         this.state = { lat: null, errorMessage: '' };
-
-        navigator.geolocation.getCurrentPosition(
-            (position) => {
-                this.setState({ lat: position.coords.latitude });
-            },
-            (err) => {
-                this.setState({ errorMessage: err.message })
-            }
-        );
     }
     componentDidMount(){
-        console.log("My component was rendered to the screen");
+        navigator.geolocation.getCurrentPosition(
+            (position) => this.setState({ lat: position.coords.latitude }),
+            (err) => this.setState({ errorMessage: err.message })
+        );
     }
     componentDidUpdate(){
         console.log("My component was re-rendered");
