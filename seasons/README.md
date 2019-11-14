@@ -32,3 +32,4 @@ Diagram 15: Purpose of using different Lifecycle methods
 Diagram 14: Rarely used Lifecycle methods
 
 * this.state inside constructor can be refactored to only state outside the constructor. Try babeljs.io
+* When state changes, even child component within the render method will be re-rendered
