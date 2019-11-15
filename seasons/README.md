@@ -37,3 +37,6 @@ Diagram 14: Rarely used Lifecycle methods
 Diagram 17: Month data for winter and summer
 
 * Template string by placing backtick as shown in SeasonDisplay component
+
+### Refactoring:
+* Configuration object as shown in SeasonDisplay file's seasonConfig
