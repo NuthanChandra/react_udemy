@@ -15,14 +15,22 @@ class App extends React.Component {
     componentDidUpdate(){
         console.log("My component was re-rendered");
     }
-    render(){
-        if(this.state.lat && !this.state.errorMessage){
+
+    renderContent() {
+        if (this.state.lat && !this.state.errorMessage) {
             return <SeasonDisplay lat={this.state.lat} />;
         }
-        if(this.state.errorMessage && !this.state.lat){
+        if (this.state.errorMessage && !this.state.lat) {
             return <div>Error: {this.state.errorMessage}</div>
         }
-        return <Spinner message="Please accept location request"/>
+        return <Spinner message="Please accept location request" />
+    }
+    render(){
+       return (
+           <div className="border red">
+               {this.renderContent()}
+           </div>
+       );
     }
 }
 
