@@ -41,3 +41,4 @@ Diagram 17: Month data for winter and summer
 ### Refactoring and styling:
 * Configuration object as shown in SeasonDisplay file's seasonConfig
 * Styling for SeasonDisplay appropriately named 
+* Spinner component for loading
