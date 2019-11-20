@@ -43,3 +43,7 @@ Diagram 17: Month data for winter and summer
 * Styling for SeasonDisplay appropriately named 
 * Spinner component for loading, and default props a more elegant way to specify default values
 * Avoid conditionals in render so that future changes can be handled more easily
+
+
+### Exercise
+* Update time exercise in index.js
