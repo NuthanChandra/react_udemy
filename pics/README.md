@@ -15,3 +15,6 @@ Diagram 5,6,7
 * Diagram 8: More on different props
 * Some html elements don't support every callback. For e.g, onChange and onSubmit cannot be used on a div, but you can use onClick on a div
 * Convention for Name of the callback is: on + name of the element + event
+
+### Alternate event handler syntax
+* It is used when only a single line statement is present
