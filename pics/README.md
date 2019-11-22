@@ -8,3 +8,8 @@ Diagram 1,2,3 : Overview
 Diagram 5,6,7 
 
 * Structuring by adding components directory within src
+
+### Prop in input field
+* onChange in input field in SearchBar is a prop
+* This onInputChange is not called whenever render is called but when the input changes
+* Diagram 8: More on different props
