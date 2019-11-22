@@ -18,3 +18,7 @@ Diagram 5,6,7
 
 ### Alternate event handler syntax
 * It is used when only a single line statement is present
+
+* Diagram 12
+### Uncontrolled to Controlled components
+* Diagram 9
