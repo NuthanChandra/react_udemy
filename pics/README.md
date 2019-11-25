@@ -30,3 +30,6 @@ Diagram 5,6,7
 
 ### Default behavior of form input's ENTER is to submit to backend server
 * Add eventHandler to form: onSubmit
+
+### Common error message in React
+* Seen in SearchBar's onFormSubmit's this.state.term
