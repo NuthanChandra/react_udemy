@@ -27,3 +27,6 @@ Diagram 5,6,7
 * Diagram 11: We want the React side to drive the data to our App and not store data in the DOM
 
 * By doing this, certain operations become very easy like User entering text in Uppercase, even though they enter lowercase
+
+### Default behavior of form input's ENTER is to submit to backend server
+* Add eventHandler to form: onSubmit
