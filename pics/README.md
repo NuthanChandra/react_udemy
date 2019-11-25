@@ -22,3 +22,8 @@ Diagram 5,6,7
 * Diagram 12
 ### Uncontrolled to Controlled components
 * Diagram 9
+
+* Diagram 10: Uncontrolled since the data is coming from DOM OR THE html input tag's hard-coded value 
+* Diagram 11: We want the React side to drive the data to our App and not store data in the DOM
+
+* By doing this, certain operations become very easy like User entering text in Uppercase, even though they enter lowercase
