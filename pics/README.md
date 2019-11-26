@@ -40,4 +40,10 @@ Diagram 5,6,7
 * One way is bind the function to the object in the constructor like, this.drive = this.drive.bind(this);
 * Convert onFormSubmit to arrow function. They automatically bind the value of 'this' for all the code inside the function
 * Third way is within onSubmit use a callback as shown in SearchBar component's onFormSubmit
+* In general we use the arrow function
 
+### Take the search term and pass back to the App component
+* Diagram 13, 14, 15
+* For this, we need to refactor our App component into a class based component
+* The prop onSubmit within App component's SearchBar can be anything
+* In class based components, to use props we need 'this'
