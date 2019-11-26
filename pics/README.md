@@ -33,3 +33,10 @@ Diagram 5,6,7
 
 ### Common error message in React
 * Seen in SearchBar's onFormSubmit's this.state.term
+* Diagram 20, 16
+* For determining 'this', you don't look at the function, but look at where it is called, i.e, see the lefthand side of dot of drive
+
+### Solution for common cannot read property state of undefined:
+* One way is bind the function to the object in the constructor like, this.drive = this.drive.bind(this);
+* Convert onFormSubmit to arrow function. They automatically bind the value of 'this' for all the code inside the function
+
