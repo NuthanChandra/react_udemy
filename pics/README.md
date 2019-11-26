@@ -39,4 +39,5 @@ Diagram 5,6,7
 ### Solution for common cannot read property state of undefined:
 * One way is bind the function to the object in the constructor like, this.drive = this.drive.bind(this);
 * Convert onFormSubmit to arrow function. They automatically bind the value of 'this' for all the code inside the function
+* Third way is within onSubmit use a callback as shown in SearchBar component's onFormSubmit
 
