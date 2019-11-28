@@ -47,3 +47,12 @@ Diagram 5,6,7
 * For this, we need to refactor our App component into a class based component
 * The prop onSubmit within App component's SearchBar can be anything
 * In class based components, to use props we need 'this'
+
+### Loading data to React Application
+* Link: https://www.draw.io/#Uhttps://raw.githubusercontent.com/StephenGrider/redux-code/master/diagrams/06/diagrams.xml
+* Diagram 1
+* Link to unsplash: https://unsplash.com/developers
+* Diagram 04 - reqs
+* Diagram 03 - libraries
+* axios is preferred
+
