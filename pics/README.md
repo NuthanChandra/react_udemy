@@ -55,4 +55,5 @@ Diagram 5,6,7
 * Diagram 04 - reqs
 * Diagram 03 - libraries
 * axios is preferred
+* Unsplash documentation: Location to get the link, Authorization section for auth
 
