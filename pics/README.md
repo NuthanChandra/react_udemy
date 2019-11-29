@@ -56,4 +56,10 @@ Diagram 5,6,7
 * Diagram 03 - libraries
 * axios is preferred
 * Unsplash documentation: Location to get the link, Authorization section for auth
+* Diagram 04 - async
 
+### Getting notification after request is complete
+* One of the way is Promise, an object that is returned whenever axios call is done
+* then is called some point in the future when response is obtained
+
+* Another way which is much more easier is async and await
