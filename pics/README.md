@@ -63,3 +63,5 @@ Diagram 5,6,7
 * then is called some point in the future when response is obtained
 
 * Another way which is much more easier is async and await
+* async on the function
+* await on whatever is taking time
