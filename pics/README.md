@@ -67,3 +67,7 @@ Diagram 5,6,7
 * await on whatever is taking time
 
 ### Create ImageList component for displaying images
+
+### Understanding maps
+* map returns a brand new Array
+* E.g.,numbers.map((num) => num\*10) or numbers.map(num => num\*10)
