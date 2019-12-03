@@ -81,3 +81,4 @@ Diagram 5,6,7
 
 ### Shortening image.id,urls and description in ImageList
 * This is done by adding every property within the argument parenthesis
+* This is the end of V1 implementation
