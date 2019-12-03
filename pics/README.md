@@ -71,3 +71,10 @@ Diagram 5,6,7
 ### Understanding maps
 * map returns a brand new Array
 * E.g.,numbers.map((num) => num\*10) or numbers.map(num => num\*10)
+
+### Warning message of unique keys when rendering lists
+* Each child in a list should have a unique "key" prop
+* Diagram 07, 08, 09
+* Key prop should be added so that only New items are rendered on the DOM 
+* Helps in better performance by adding keys
+* In the root jsx tag that is being returned in the map statement, add key prop
