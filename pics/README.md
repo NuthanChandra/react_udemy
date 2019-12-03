@@ -78,3 +78,6 @@ Diagram 5,6,7
 * Key prop should be added so that only New items are rendered on the DOM 
 * Helps in better performance by adding keys
 * In the root jsx tag that is being returned in the map statement, add key prop
+
+### Shortening image.id,urls and description in ImageList
+* This is done by adding every property within the argument parenthesis
