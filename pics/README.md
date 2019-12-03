@@ -74,6 +74,7 @@ Diagram 5,6,7
 
 ### Warning message of unique keys when rendering lists
 * Each child in a list should have a unique "key" prop
+* Link: https://www.draw.io/#Uhttps://raw.githubusercontent.com/StephenGrider/redux-code/master/diagrams/06/diagrams.xml
 * Diagram 07, 08, 09
 * Key prop should be added so that only New items are rendered on the DOM 
 * Helps in better performance by adding keys
@@ -82,3 +83,11 @@ Diagram 5,6,7
 ### Shortening image.id,urls and description in ImageList
 * This is done by adding every property within the argument parenthesis
 * This is the end of V1 implementation
+
+### Grid css system
+* Link: https://www.draw.io/#Uhttps://raw.githubusercontent.com/StephenGrider/redux-code/master/diagrams/06/diagrams.xml
+* Diagram 11
+* Add ImageList.css to style
+* grid-template-columns creates a set number of columns
+* auto-fill: automatically decide how many columns to insert
+* minmax: Each columns has a minimum of 250px wide and atmost 1 fr(Max. allocation of space, in this context: every column equally sized)
