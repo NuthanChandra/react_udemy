@@ -91,3 +91,10 @@ Diagram 5,6,7
 * grid-template-columns creates a set number of columns
 * auto-fill: automatically decide how many columns to insert
 * minmax: Each columns has a minimum of 250px wide and atmost 1 fr(Max. allocation of space, in this context: every column equally sized)
+* Adding grid-auto-rows: 150px in .image-list shrinks the height but if the image is bigger than that, it will exceed that boundary
+* Another style is grid-row-end: span 3; this gives 3 cell's space. But even this is a problem
+* This is where React comes into play
+
+### React solving grid issue
+* Create a new Component called ImageCard
+* The purpose is to show one image by itself
