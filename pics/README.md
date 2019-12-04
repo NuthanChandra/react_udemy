@@ -96,5 +96,12 @@ Diagram 5,6,7
 * This is where React comes into play
 
 ### React solving grid issue
+* Link: https://www.draw.io/#Uhttps://raw.githubusercontent.com/StephenGrider/redux-code/master/diagrams/06/diagrams.xml
 * Create a new Component called ImageCard
 * The purpose is to show one image by itself
+* Diagram 12
+* We get the height in vanilla js like document.querySelector('img').clientHeight
+* But in React, we do it by using 'ref'
+* React Refs: Diagram 13
+* We are not assigning to state because it's not going to change over time
+* We need to assign Ref to instance variable
