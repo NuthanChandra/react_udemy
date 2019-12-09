@@ -112,3 +112,4 @@ Diagram 5,6,7
 * When the component first renders, the instant after it renders, we are logging the imageRef height. But the image itself is not actually loaded, i.e. it is still downloading and loading the image from unsplash
 * It is essentially a order of operations thing
 * The easy fix is to add event listener
+* If identical key and value is there, we can shorten to only one of them in setState
