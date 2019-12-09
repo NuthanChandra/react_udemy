@@ -105,3 +105,10 @@ Diagram 5,6,7
 * React Refs: Diagram 13
 * We are not assigning to state because it's not going to change over time
 * We need to assign Ref to instance variable
+* The img tag within render is a jsx tag and it gets eventually converted to a DOM element
+* We don't have handle to this jsx tag, so we create refs
+
+### Why clientHeight is 0, when imageRef.current.clientHeight is console logged
+* When the component first renders, the instant after it renders, we are logging the imageRef height. But the image itself is not actually loaded, i.e. it is still downloading and loading the image from unsplash
+* It is essentially a order of operations thing
+* The easy fix is to add event listener
