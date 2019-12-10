@@ -113,3 +113,4 @@ Diagram 5,6,7
 * It is essentially a order of operations thing
 * The easy fix is to add event listener
 * If identical key and value is there, we can shorten to only one of them in setState
+* Fine grain detail when row height or grid-auto-rows is set to 10px along with reducing the gap
