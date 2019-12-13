@@ -23,4 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 ../components
+../seasons
+../pics
+../jsx
+../README.md
 ../package-lock.json
